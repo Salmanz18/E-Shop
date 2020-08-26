@@ -32,8 +32,6 @@ class App extends React.Component {
               ...snapsHot.data(),
             },
           });
-
-          console.log(this.state);
         });
       } else {
         this.setState({ currentUser: userAuth });
